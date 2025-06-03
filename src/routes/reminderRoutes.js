@@ -4,7 +4,7 @@ import {
   createReminderSchema,
   updateReminderSchema,
 } from "../schemas/reminderSchema.js";
-import { validateData } from "../middlewares/validationMiddleware.js";
+import { validateData } from "../middleware/validationMiddleware.js";
 
 const router = Router();
 

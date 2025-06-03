@@ -1,6 +1,6 @@
 import express from "express"; // Imports Express.js
 import reminderRoutes from "./routes/reminderRoutes.js";
-import errorHandlerMiddleware from './middlewares/errorHandlerMiddleware.js';
+import errorHandlerMiddleware from './middleware/errorHandlerMiddleware.js';
 
 
 const app = express();
